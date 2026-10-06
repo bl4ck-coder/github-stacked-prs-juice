@@ -1,0 +1,155 @@
+{
+  "source": "github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack",
+  "generated": "2026-10-06",
+  "demo_repo": "github/zava-demo",
+  "nodes": [
+    {
+      "id": "c1",
+      "text": "Default agent delivery for a multi-layer feature lands as one unreviewable PR (~1535 additions / ~1700 narrated).",
+      "rung": "empirically-grounded",
+      "evidence": [
+        "compare-before-and-after.mp4",
+        "intro-reel",
+        "article"
+      ]
+    },
+    {
+      "id": "c2",
+      "text": "Stacked PRs + gh-stack decompose into dependency-ordered layers each independently reviewable.",
+      "rung": "empirically-grounded",
+      "evidence": [
+        "docs",
+        "gh-stack README",
+        "stack-map.mp4",
+        "layer demos"
+      ]
+    },
+    {
+      "id": "c3",
+      "text": "gh extension install github/gh-stack + gh skill install github/gh-stack; skill targets include Copilot and third-party agents (Claude Code, Cursor, Gemini, Cline, CodeBuddy, Continue).",
+      "rung": "empirically-grounded",
+      "evidence": [
+        "intro-reel skill menu"
+      ]
+    },
+    {
+      "id": "c4",
+      "text": "Demo stack: catalog-data \u2192 search-api \u2192 chat-grounding \u2192 grounded-ui (PRs #5\u2013#8, Stack #9).",
+      "rung": "empirically-grounded",
+      "evidence": [
+        "all layer+submit+stack-map videos"
+      ]
+    },
+    {
+      "id": "c5",
+      "text": "Layer prompts enforce single concern (API-only, no UI; grounding without presentation; presentation separate).",
+      "rung": "empirically-grounded",
+      "evidence": [
+        "layer2/3/4 prompts"
+      ]
+    },
+    {
+      "id": "c6",
+      "text": "Read stack top-down; review/merge bottom-up. Bottom merge merges only that PR; top can Merge stack.",
+      "rung": "empirically-grounded",
+      "evidence": [
+        "stack-map.mp4",
+        "article",
+        "intro narration"
+      ]
+    },
+    {
+      "id": "c7",
+      "text": "After downstack push, UI shows Blocked downstack / Not ready + divergence + Unable to merge as a stack; Rebase stack button appears.",
+      "rung": "empirically-grounded",
+      "evidence": [
+        "gh-stack-rebase.mp4",
+        "gh-stack-sync-lc.mp4"
+      ]
+    },
+    {
+      "id": "c8",
+      "text": "gh stack sync --remote clears divergence and restores Able to merge as a stack (demo recovery path).",
+      "rung": "empirically-grounded",
+      "evidence": [
+        "gh-stack-sync-lc.mp4"
+      ]
+    },
+    {
+      "id": "c9",
+      "text": "Web Rebase stack can reset committer and produce unsigned commits under branch protection.",
+      "rung": "claimed",
+      "evidence": [
+        "article prose only \u2014 NOT shown in rebase demo video"
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "First gh stack submit may cancel ('Submit cancelled - no branches were pushed'); TUI Submit Stack v0.8.7 then creates 4 PRs.",
+      "rung": "empirically-grounded",
+      "evidence": [
+        "gh-stack-submit.mp4",
+        "intro-reel"
+      ]
+    },
+    {
+      "id": "c11",
+      "text": "Workflow uses manual persona switching (Data Modeler \u2192 Backend \u2192 Frontend), not one mega-prompt.",
+      "rung": "empirically-grounded",
+      "evidence": [
+        "intro-reel",
+        "layer demos"
+      ]
+    },
+    {
+      "id": "c12",
+      "text": "Gartner ~50% SDLC productivity by 2028 via agents.",
+      "rung": "sales",
+      "evidence": [
+        "article cite only"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "c1",
+      "to": "c2",
+      "rel": "problem\u2192solution"
+    },
+    {
+      "from": "c2",
+      "to": "c3",
+      "rel": "tooling"
+    },
+    {
+      "from": "c3",
+      "to": "c11",
+      "rel": "human-orchestrates-personas"
+    },
+    {
+      "from": "c4",
+      "to": "c5",
+      "rel": "instance"
+    },
+    {
+      "from": "c2",
+      "to": "c6",
+      "rel": "review-discipline"
+    },
+    {
+      "from": "c7",
+      "to": "c8",
+      "rel": "recovery"
+    },
+    {
+      "from": "c7",
+      "to": "c9",
+      "rel": "article-warns-web-path"
+    },
+    {
+      "from": "c3",
+      "to": "c10",
+      "rel": "submit-lifecycle"
+    }
+  ]
+}

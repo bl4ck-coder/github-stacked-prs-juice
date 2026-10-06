@@ -1,0 +1,92 @@
+{
+  "dir": "/workspace/github-stack-pr-juice/videos",
+  "count": 15,
+  "files": [
+    {
+      "path": "/workspace/github-stack-pr-juice/videos/agent-full-implementation.mp4",
+      "bytes": 54297324,
+      "sha256": "6476fd49cdd7da5fbdc83a40664a70071859f8a45e41c229f1312417c3da730d"
+    },
+    {
+      "path": "/workspace/github-stack-pr-juice/videos/compare-before-and-after-improved.mp4",
+      "bytes": 2672003,
+      "sha256": "cec6695ff1f3d1629b96016649da00a51ca47b5654f85e66d462263b8f8e6082"
+    },
+    {
+      "path": "/workspace/github-stack-pr-juice/videos/gh-skill-install.mp4",
+      "bytes": 8667955,
+      "sha256": "50b13d8cf1027ac8a8d520db5a94af39bb4e1fdec9647f1b659a1947ea2961f2"
+    },
+    {
+      "path": "/workspace/github-stack-pr-juice/videos/gh-stack-rebase.mp4",
+      "bytes": 140544347,
+      "sha256": "ece020d97a2c1847ffbba11951fe4399bcbd98f42767b47f4a84d008745d5ecf"
+    },
+    {
+      "path": "/workspace/github-stack-pr-juice/videos/gh-stack-submit.mp4",
+      "bytes": 23020397,
+      "sha256": "9a96adfd6cec1fc5c5afda5b69ebf113baaabeaa9ffec5e4f1f0a34fb7deda7a"
+    },
+    {
+      "path": "/workspace/github-stack-pr-juice/videos/gh-stack-sync-lc.mp4",
+      "bytes": 66059546,
+      "sha256": "1c130e091c5565c199176fd5c0f209c7ebfa177e79709e45fdea61cefd281060"
+    },
+    {
+      "path": "/workspace/github-stack-pr-juice/videos/gh-stack-xtension-install.mp4",
+      "bytes": 2135867,
+      "sha256": "4f8d5708357469dfcc0c8eab0c84875a7a6b39e699c666f54cefdfd95494b3fd"
+    },
+    {
+      "path": "/workspace/github-stack-pr-juice/videos/layer1-data.mp4",
+      "bytes": 44809094,
+      "sha256": "25cee74957e5a502f3ac3073f91232dbc91d990b769b52082c8ed752987e4d84"
+    },
+    {
+      "path": "/workspace/github-stack-pr-juice/videos/layer2-backend.mp4",
+      "bytes": 68144752,
+      "sha256": "6d969b072f3647c6f2718138733c8166b5221004d1c81d7b9c4c534754d48848"
+    },
+    {
+      "path": "/workspace/github-stack-pr-juice/videos/layer3-frontend.mp4",
+      "bytes": 131526400,
+      "sha256": "1aa3c78ba61932346271a483f37ae1d443e38f594d4eabfa8bbef763413e0f87"
+    },
+    {
+      "path": "/workspace/github-stack-pr-juice/videos/layer4-frontend.mp4",
+      "bytes": 122574552,
+      "sha256": "84ddae4d078ecc19a319d196349697aa140ced8ac8b2a9da92d3d7ce1a670a53"
+    },
+    {
+      "path": "/workspace/github-stack-pr-juice/videos/stack-map.mp4",
+      "bytes": 217608259,
+      "sha256": "4fc921f12742d5947ddd3316a6446fcb2df0282b7aeecaa713af85d2800a8022"
+    },
+    {
+      "path": "/workspace/github-stack-pr-juice/videos/yt-0WIGMOiG7LA/captions.en.txt",
+      "bytes": 7226,
+      "sha256": "35d6704269da542809424dbd06f2962b1b603fdeb8196340065a7334c893859d"
+    },
+    {
+      "path": "/workspace/github-stack-pr-juice/videos/yt-0WIGMOiG7LA/captions.en.vtt",
+      "bytes": 23371,
+      "sha256": "0663b5c5d731aa45693b2077d2219c990513f8151038efece91310d4b9e2106b"
+    },
+    {
+      "path": "/workspace/github-stack-pr-juice/videos/yt-0WIGMOiG7LA/video.mp4",
+      "bytes": 10751284,
+      "sha256": "ba64b9a89a5dc274bc817cbfe6150a22f4de28427135e97c7ed057b212ba56ec"
+    }
+  ],
+  "notes": {
+    "youtube_id": "0WIGMOiG7LA",
+    "youtube_video": "/workspace/github-stack-pr-juice/videos/yt-0WIGMOiG7LA/video.mp4",
+    "youtube_video_format": "720p60 avc1+m4a merge (~10.3 MiB)",
+    "youtube_captions_vtt": "/workspace/github-stack-pr-juice/videos/yt-0WIGMOiG7LA/captions.en.vtt",
+    "youtube_captions_txt": "/workspace/github-stack-pr-juice/videos/yt-0WIGMOiG7LA/captions.en.txt",
+    "youtube_captions_status": "ok (en auto-ASR; timedtext via curl after yt-dlp 429)",
+    "blog_mp4_expected": 12,
+    "blog_mp4_actual": 12,
+    "failures": []
+  }
+}
